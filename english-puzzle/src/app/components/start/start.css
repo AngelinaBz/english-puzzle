@@ -1,0 +1,98 @@
+.start {
+  margin-top: 5%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 20px;
+  max-width: 80%;
+  width: 900px;
+}
+
+.puzzle {
+  color: white;
+  font-size: 90px;
+  font-weight: 900;
+  margin: auto;
+  letter-spacing: 10px;
+  text-align: center;
+  text-shadow:
+    0px 0px 5px #b393d3,
+    0px 0px 10px #b393d3,
+    0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow:
+      0px 0px 5px #7d5077,
+      0px 0px 10px #7d5077,
+      0px 0px 10px #7d5077,
+      0px 0px 20px #7d5077;
+  }
+  100% {
+    text-shadow:
+      0px 0px 5px #b393d3,
+      0px 0px 15px #b393d3,
+      0px 0px 20px #b393d3,
+      0px 0px 30px #b393d3;
+  }
+}
+
+.description {
+  color: rgb(48, 41, 68);
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.greeting {
+  color: white;
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+  text-shadow: 2px 5px 2px #7d5077;
+}
+
+.start-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 21px;
+  width: 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+.start-button:before {
+  content: url('../../../assets/play.svg');
+  position: absolute;
+  top: 13px;
+  right: 17px;
+}
+
+.dark {
+  background-image: url('../../../assets/backgrounddark.jpg');
+  transition: background-image 0.5s;
+}
+
+.logout {
+  align-self: self-end;
+  position: relative;
+  width: 54px;
+  height: 45px;
+  border-radius: 12px;
+  background-color: #e7dae7b8;
+  border: 2px solid #ccc;
+}
+
+.logout:before {
+  content: url('../../../assets/logout.svg');
+  position: absolute;
+  top: 0px;
+  left: 5px;
+}

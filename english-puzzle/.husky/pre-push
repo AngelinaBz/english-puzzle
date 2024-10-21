@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+cd english-puzzle
+npm run lint
+npx validate-branch-name
