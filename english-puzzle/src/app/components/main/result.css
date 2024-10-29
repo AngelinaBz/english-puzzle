@@ -1,0 +1,25 @@
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 34px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.active {
+  pointer-events: auto;
+  user-select: auto;
+}

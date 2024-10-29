@@ -1,0 +1,31 @@
+.translation-button {
+  content: url('../../../assets/hint.svg');
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 9px;
+  background-color: #b393d3;
+}
+
+.nohint {
+  background-color: #d3c0c6;
+}
+
+.translation-container {
+  height: 40px;
+}
+
+.invisible {
+  display: none;
+}
+
+.translation {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(48, 41, 68);
+  font-style: italic;
+  text-align: center;
+  opacity: 0;
+  animation: appearance 0.7s forwards;
+}
