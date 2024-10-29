@@ -2,6 +2,9 @@
 
 **English-puzzle** is an interactive mini-game aimed at enhancing English language skills. Players assemble sentences from jumbled words, inspired by Lingualeo's Phrase Constructor training.
 
+## Deployment
+- [English-Puzzle](https://angelinabz.github.io/english-puzzle/)
+
 ## Tech Stack
 - **Frontend**: HTML, SCSS, TypeScript
 - **Formating**: ESLint, Prettier, Husky
