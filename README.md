@@ -6,7 +6,7 @@
 - [English-Puzzle](https://angelinabz.github.io/english-puzzle/)
 
 ## Tech Stack
-- **Frontend**: HTML, SCSS, TypeScript
+- **Frontend**: HTML, CSS, TypeScript
 - **Formating**: ESLint, Prettier, Husky
 - **Builder**: Webpack
 
